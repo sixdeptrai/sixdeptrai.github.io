@@ -1,1 +1,0 @@
-# sixdeptrai.github.io
