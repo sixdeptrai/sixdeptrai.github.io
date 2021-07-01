@@ -73,7 +73,7 @@ $('#no').click(() => {
 // generate text in input
 function textGenerate() {
     var n = "";
-    var text = " Tại vÌ anh dễ thương vl lại còn đẹp trai nữa :<<<<<<< ";
+    var text = " Tại vì anh dễ thương vl lại còn đẹp trai nữa :<<<<<<< ";
     var a = Array.from(text);
     var textVal = $('#txtReason').val() ? $('#txtReason').val() : "";
     var count = textVal.length;
@@ -100,7 +100,7 @@ $('#yes').click(function() {
         html: true,
         width: 900,
         padding: '3em',
-        html: "<input type='text' class='form-control' id='txtReason' onmousemove=textGenerate()  placeholder='Whyyy'>",
+        html: "<input type='text' class='form-control' id='txtReason' onmousemove=textGenerate()  placeholder='Nhập vô đây nhaaaa.'>",
         background: '#fff url("img/iput-bg.jpg")',
         backdrop: `
               rgba(0,0,123,0.4)
@@ -119,7 +119,7 @@ $('#yes').click(function() {
         if (result.value) {
             Swal.fire({
                 width: 900,
-                confirmButtonText: 'Okiiiii lun <3',
+                confirmButtonText: 'Bấm vô đây để nghe nha <3',
                 background: '#fff url("img/iput-bg.jpg")',
                 title: 'Anh biết mà ^^ Yêu em 300.000',
                 text: "I lớp u chụt chụt :v Tặng em bài này nè <3 .",
